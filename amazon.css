@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+    
+}
+
+.logo{
+    background-image: url(Amazon-Logo.jpg);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    color:white ;
+    background-color: white;
+}
+
+.herosection{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+
+
+.border{
+    border: 2px solid transparent;
+}
+
+
+.border :hover{
+    border: 2px solid white;
+}
+
+
+.del_first{
+    font-size: .75rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.locate{
+    font-size: 1rem;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 30px;
+    justify-content: space-evenly;
+}
+
+.navsearch :active{
+    border: 2px solid orange;
+}
+
+.navselect{
+    width: 50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+
+}
+
+
+.navinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+    
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.navAccount{
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+
+.cart{
+    display: flex;
+    
+}
+
+
+.Asection{
+    height: 28px;
+    background-color: #2e4444;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.PofALL{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.Section2{
+    height: 10px;
+    background-color: #77BC1F;
+}
+
+.heromessage{
+    
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 80%;
+}
+.heromessage  a{
+    color: #007185;
+    text-decoration: none;
+    font-size: .85rem;
+    
+}
+
+
+
+
+.container{
+    background-color: #3f4141;
+    display: flex;
+
+    justify-content: space-evenly;
+    color: rgb(206, 19, 19);
+    padding: 20px;
+    
+
+
+}
+
+.cardfirst{
+      background: white;
+      width: 300px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      padding: 16px;
+
+    
+}
+
+
+.cardsecond{
+      background: white;
+      width: 300px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      padding: 16px;
+
+}
+
+
+
+
+
+ .imageI{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    
+    
+}
+
+.imageII{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+} 
+
+
+.item {
+      text-align: center;
+}
+
+    .item img {
+      width: 100%;
+      border-radius: 4px;
+}
+
+    .item p {
+      margin-top: 6px;
+      font-size: 14px;
+}
+.cover{
+    background-color: #febd68;
+}
+.Signpage{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px ;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+.Signpage button{
+    background-color: #ffce12;
+    margin-left:100px ;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+
+.top{
+    margin-top: 2px;
+    height: 40px;
+    background-color: #2e4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    height: 300px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+.text1{
+    margin-left: 20px;
+    
+}
+.text1 ul {
+    list-style: none;
+    font-size: small;
+    
+}
+
+.text2{
+     margin-right:20px;
+}
+.text2 ul{
+    list-style: none;
+    font-size: small;
+    
+}
+
+.text3{
+     margin-right:20px;
+}
+
+
+.text3 ul{
+    list-style: none;
+    font-size: small;
+    
+}
+
+.text4{
+    margin-right:20px;
+}
+
+.text4 ul{
+    list-style: none;
+    font-size: small;
+    
+}
+
+
+
+
+/* Here dropdown*/
+.dropdown{
+    height: 200px;
+    width: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+    padding: 10px;
+    background-color: #a1acac;
+    display: none;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+
+.dropdown button{
+    height: 40px;
+    width: 80px;
+    background-color: #ffce12;
+    border-radius: 15px;
+}
+
+.dropdown span{
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+
+
+.dropdown span:hover {
+      color: #e47911; /* Amazon orange */
+}
+
+    /* Show menu on hover */
+.navSIgn:hover .dropdown{
+      display: block;
+}
+
+
+
+
+
+
+    .hide-box{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+            padding: 50px;
+            border-radius: 10px;
+            background: transparent;
+            backdrop-filter: blur(15px);
+            background-color: rgba(146, 139, 40, 0.8); 
+
+        }
+         .hide-box input{
+            height: 30px;
+            width: 200px;
+            border-radius: 4px;
+        }
+         .hide-box button{
+            height: 30px;
+            width: 70px;
+            border: none;
+            background-color: yellow;
+            border-radius: 5px;
+            
+        }
+         .hide-box p{
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        /* .hide-box{
+        display: none;
+        } */
+
+        .display{
+            display: none;
+        }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
